@@ -1,5 +1,5 @@
 # 概要
-- kintone devCamp Step3@名古屋 LT のコードサンプル
+- [kintone devCamp Step3@名古屋](https://eventregist.com/e/devcamp-step3-190509nagoya) LT のコードサンプル
 - 出張申請アプリと旅費精算申請アプリを利用（アプリストアにあるもの）
 
 # ファイル構成
