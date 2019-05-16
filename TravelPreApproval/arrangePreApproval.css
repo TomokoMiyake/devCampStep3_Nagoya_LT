@@ -1,0 +1,17 @@
+/* 旅費申請アプリに登録ボタンのデザイン */
+#button {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: #3498db;
+  color: #FFF;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+}
+#button:active {
+  /*ボタンを押したとき*/
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px); /*下に動かす*/
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2); /*影の調整*/
+  border-bottom: none;
+}

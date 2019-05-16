@@ -1,0 +1,38 @@
+/* 申請中のレコード件数表示のデザイン */
+.deco{
+  position: relative;
+  background: #fff0cd;
+  box-shadow: 0px 0px 0px 5px #fff0cd;
+  border: dashed 2px white;
+  padding: 0.2em 0.5em;
+  color: #454545;
+}
+
+.deco:after{
+  position: absolute;
+  content: '';
+  right: -7px;
+  top: -7px;
+  border-width: 0 15px 15px 0;
+  border-style: solid;
+  border-color: #ffdb88 #fff #ffdb88;
+  box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.15);
+}
+
+/* 「スレッドに月次リマインド投稿」ボタンのデザイン */
+#button {
+  display: inline-block;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  background: #3498db;
+  color: #FFF;
+  border-bottom: solid 4px #627295;
+  border-radius: 3px;
+}
+#button:active {
+  /*ボタンを押したとき*/
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px); /*下に動かす*/
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2); /*影の調整*/
+  border-bottom: none;
+}
