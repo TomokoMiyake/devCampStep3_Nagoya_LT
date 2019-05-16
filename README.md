@@ -5,6 +5,7 @@
 
 # Files
 - 出張&旅費精算アプリテンプレ.zip(アプリテンプレート)
+- Screenshot(動作イメージ画像)
 - TravelPreApproval（出張申請アプリに適用）
   - arrangePreApproval.js
   - arrangePreApproval.css
